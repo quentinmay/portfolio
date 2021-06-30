@@ -19,6 +19,12 @@ code {
   background-image: linear-gradient(to top, black, rgb(54, 54, 54));
   margin: 40px;
   padding: 10px;
+  background: linear-gradient(70deg, var(--c1, rgb(36, 238, 245)), var(--c2, rgb(198, 216, 255)) 0%, rgb(42, 238, 245)) var(--x, 0)/ 200%;
+  transition: 2s;
+}
+
+.header:hover {
+  --x:100%
 }
 
 
@@ -73,13 +79,14 @@ code {
   background-image: linear-gradient(to bottom, white, azure);
   /* background-image: linear-gradient(to bottom, gray, black); */
   
-  filter: brightness(.3);
+  filter: brightness(.5);
   
   justify-content: left;
   align-items: center;
 
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  
 }
 
 
@@ -111,7 +118,18 @@ code {
 }
 
 .paragraph {
-  color:azure;
+  /* color:azure; */
+  /* color: rgb(0, 0, 0);
+   */
+   color: azure;
+
+  font-weight: bold;
+  /* font-size: 19px; */
+  /* stroke-width: 15px; */
+  /* -webkit-text-stroke-color: rgb(255, 237, 214); */
+  /* stroke:bisque; */
+  /* stroke-width: 2px; */
+  /* font-size: 17px; */
 
 }
 
@@ -127,4 +145,18 @@ code {
 ::-webkit-scrollbar-thumb {
   background: azure;
   border-radius: 3px;
+}
+
+.projects-header {
+  min-height: 200px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, black, rgb(54, 54, 54));
+  margin: 40px;
+  padding: 10px;
+  background: linear-gradient(70deg, var(--c1, rgb(36, 238, 245)), var(--c2, rgb(255, 240, 198)) 0%, rgb(42, 238, 245)) var(--x, 0)/ 200%;
+  transition: 2s;
+}
+
+.projects-header:hover {
+  --x:100%
 }
