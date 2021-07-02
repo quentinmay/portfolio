@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+// import ReactMarkdown from 'react-markdown'
+import Markdown from 'markdown-to-jsx';
+// import { Markup } from 'react-render-markup';
 
 async function getReadMe(url) {
     try {
@@ -17,14 +19,23 @@ function ProjectItem({ project }) {
             setState({ status: "loaded", data: response });
         });
     }
-    // "https://raw.githubusercontent.com/quentinmay/Video-Clip-Sharer/master/README.md"
     return (
         <div className="project-header">
             {state.status === "loading" && (
                 <>
                 </>
-            )} {state.status === "loaded" && (
-                <ReactMarkdown>{state.data}</ReactMarkdown>
+            )}
+            {state.status === "loaded" && (
+                <div className="projects-header" id={project.projectName}>
+                    <details>
+
+                        <summary className="project-summary"> <img src={project.projectIcon} alt="" className="project-icon" />{project.projectName}</summary>
+                        <div className="project-item">
+                            <Markdown>{state.data}</Markdown>
+                        </div>
+                    </details>
+                </div>
+
             )
 
             }

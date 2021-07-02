@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem';
 function ProjectsList() {
     // "https://raw.githubusercontent.com/quentinmay/Video-Clip-Sharer/master/README.md"
     return (
-        <div className="projects-header">
+        <div className="projects-header1">
             <h1 className="projects-header-title">Projects</h1>
             {projects.map((project) => {
                 return (

@@ -100,6 +100,15 @@ code {
 }
 
 
+details[open] summary ~ * {
+  animation: sweep 1s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateX(-10px)}
+  100%  {opacity: 1; transform: translateX(0)}
+}
+
 .project-icon {
   height: 50px;
   width: 50px;
@@ -116,6 +125,11 @@ code {
   color:azure;
   text-decoration: underline;
 }
+
+.contact-info {
+  vertical-align: bottom;
+}
+
 
 .paragraph {
   /* color:azure; */
@@ -148,7 +162,7 @@ code {
 }
 
 .projects-header {
-  min-height: 200px;
+  /* min-height: 200px; */
   border-radius: 20px;
   background-image: linear-gradient(to top, black, rgb(54, 54, 54));
   margin: 40px;
@@ -159,4 +173,24 @@ code {
 
 .projects-header:hover {
   --x:100%
+}
+
+
+.project-item {
+  text-align: left;
+  /* display:contents; */
+}
+.project-summary {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color:gray
+}
+
+img {
+  max-width: 100%;
+  /* max-height: 100%; */
+  /* display: block; */
 }
