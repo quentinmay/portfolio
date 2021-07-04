@@ -14,7 +14,7 @@ function Header() {
             <div className="subjects">
                 <div className="subject" id="subject1">
                     <h2 className="subject-title">About Me</h2>
-                    <p className="about-me paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam mollitia atque doloribus perspiciatis unde quo necessitatibus expedita corporis accusamus. Quibusdam, quis. Illo provident doloribus numquam distinctio maiores tenetur voluptatibus sed?</p>
+                    <p className="about-me paragraph">Hey!👋 I'm Quentin, an aspiring Software Engineer and senior at California State University, Fullerton pursuing a Bachelor's degree in Computer Science. My core programming experience lies in C#, Java, and JavaScript, but I love all things computing. 🙂</p>
 
                 </div>
                 <div className="subject" id="subject2">

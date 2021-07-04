@@ -14,7 +14,9 @@ code {
 
 
 .header {
+  
   min-height: 200px;
+  min-width: 800px;
   border-radius: 20px;
   background-image: linear-gradient(to top, black, rgb(54, 54, 54));
   margin: 40px;
@@ -37,12 +39,14 @@ code {
   border-top: 0pt;
   border-left: 0pt;
   border-right: 0pt;
+  filter: drop-shadow(4px 4px 2px black);
 }
 
 
 
 .subjects {
   /* display:contents; */
+  
   max-height: 300px;
   display:flex;
 
@@ -50,7 +54,9 @@ code {
 
 .subject {
   flex: 1; 
-  min-width: 300px;
+  width: 300px;
+  min-width: 33%;
+  max-width: 33%;
   /* padding-left: 10px; */
   /* padding-right:10px; */
   margin-left: 10px;
@@ -73,9 +79,9 @@ code {
   color:black;
   min-height: 40px;
   border-radius: 20px;
+  max-width: 100%;
   margin:20px;
   cursor: pointer;
-
   background-image: linear-gradient(to bottom, white, azure);
   /* background-image: linear-gradient(to bottom, gray, black); */
   
@@ -121,6 +127,7 @@ details[open] summary ~ * {
 }
 
 .subject-title {
+  filter: drop-shadow(2px 2px 1px black);
   
   color:azure;
   text-decoration: underline;
@@ -136,6 +143,7 @@ details[open] summary ~ * {
   /* color: rgb(0, 0, 0);
    */
    color: azure;
+   filter: drop-shadow(2px 2px 1px black);
 
   font-weight: bold;
   /* font-size: 19px; */
@@ -166,7 +174,9 @@ details[open] summary ~ * {
   border-radius: 20px;
   background-image: linear-gradient(to top, black, rgb(54, 54, 54));
   margin: 40px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right:10px;
+
   background: linear-gradient(70deg, var(--c1, rgb(36, 238, 245)), var(--c2, rgb(255, 240, 198)) 0%, rgb(42, 238, 245)) var(--x, 0)/ 200%;
   transition: 2s;
 }
@@ -186,7 +196,8 @@ details[open] summary ~ * {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color:gray
+  color:gray;
+  cursor: pointer;
 }
 
 img {

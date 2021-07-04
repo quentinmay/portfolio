@@ -33,7 +33,7 @@ export const projects = [
         "projectIcon": "mic.png",
         "projectShortDescription": "Website portfolio built in ReactJS. Its where your at right now!",
         "projectDescription": "Long portfolio description",
-        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/portfolio/gh-pages/portfolio.md"
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/portfolio/master/portfolio.md"
     }
 ];
 
