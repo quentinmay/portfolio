@@ -30,10 +30,17 @@ export const projects = [
     },
     {
         "projectName": "Portfolio",
-        "projectIcon": "mic.png",
+        "projectIcon": "smile.png",
         "projectShortDescription": "Website portfolio built in ReactJS. Its where your at right now!",
         "projectDescription": "Long portfolio description",
         "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/portfolio/master/portfolio.md"
+    },
+    {
+        "projectName": "Login Page",
+        "projectIcon": "memo.png",
+        "projectShortDescription": "React.JS website that uses AWS Cognito for the backend.",
+        "projectDescription": "Long portfolio description",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/login-page/master/portfolio.md"
     }
 ];
 
