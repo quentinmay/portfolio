@@ -10,9 +10,16 @@ export const projects = [
     {
         "projectName": "League Bot",
         "projectIcon": "draven.png",
-        "projectShortDescription": "This is my leaguebot description.",
+        "projectShortDescription": "Discord bot to provide utility for league of legends discord servers",
         "projectDescription": "This is my long leaguebot description.",
         "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/LeagueBot/main/portfolio.md"
+    },
+    {
+        "projectName": "Discord Voice Assistant",
+        "projectIcon": "mic.png",
+        "projectShortDescription": "Multi-purpose discord bot built to utilize speech recognition",
+        "projectDescription": "This is my long leaguebot description.",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/discord-voice-assistant/main/README.md"
     },
     {
         "projectName": "Realtime Livestream Server",
@@ -41,6 +48,13 @@ export const projects = [
         "projectShortDescription": "React.JS website that uses AWS Cognito for the backend.",
         "projectDescription": "Long portfolio description",
         "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/login-page/master/portfolio.md"
+    },
+    {
+        "projectName": "Nytelock Sample Page",
+        "projectIcon": "sparkles.png",
+        "projectShortDescription": "React.JS page to display photos.",
+        "projectDescription": "Long portfolio description",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/nytelock-sample-page/master/portfolio.md"
     }
 ];
 
