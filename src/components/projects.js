@@ -55,6 +55,13 @@ export const projects = [
         "projectShortDescription": "React.JS page to display photos.",
         "projectDescription": "Long portfolio description",
         "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/nytelock-sample-page/master/portfolio.md"
+    },
+    {
+        "projectName": "Glitter",
+        "projectIcon": "glitter.png",
+        "projectShortDescription": "Mock twitter clone crafted with a JavaScript, Tailwind, SQL, and sandman2.",
+        "projectDescription": "Long portfolio description",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/cpsc349-project4/main/README.md"
     }
 ];
 
