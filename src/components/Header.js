@@ -32,8 +32,8 @@ function Header() {
                         <a href="https://github.com/quentinmay">
                             <h3 className="contact-info github paragraph" ><GoMarkGithub /> quentinmay</h3>
                         </a>
-                        <a href="https://www.linkedin.com/in/quentin-may-7b28a8213/">
-                            <h3 className="contact-info linked-in paragraph"><AiFillLinkedin /> in/quentin-may-7b28a8213/</h3>
+                        <a href="https://www.linkedin.com/in/quentin-may">
+                            <h3 className="contact-info linked-in paragraph"><AiFillLinkedin /> in/quentin-may</h3>
                         </a>
                     </div>
                 </div>
