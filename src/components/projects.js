@@ -62,6 +62,20 @@ export const projects = [
         "projectShortDescription": "Mock twitter clone crafted with a JavaScript, Tailwind, SQL, and sandman2.",
         "projectDescription": "Long portfolio description",
         "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/cpsc349-project4/main/README.md"
+    },
+    {
+        "projectName": "UFC Bot",
+        "projectIcon": "/portfolio/fight.png",
+        "projectShortDescription": "UFC Betting bot built using Odds Shark scraper.",
+        "projectDescription": "Long portfolio description",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/ufc-bot/main/README.md"
+    },
+    {
+        "projectName": "Spam Filter Bot",
+        "projectIcon": "/portfolio/anti.png",
+        "projectShortDescription": "Anti-Spam Bot built for discord servers using discord.js and Naive Baiyes Theorem.",
+        "projectDescription": "Long portfolio description",
+        "projectMarkDown": "https://raw.githubusercontent.com/quentinmay/spam-filter-bot/master/README.md"
     }
 ];
 
